@@ -1,12 +1,7 @@
-docker-images
-===
-
-Dockerfiles for own use.
-
 mikeneck/jdk8
 ===
 
-Jdk8 image with minimal spec.
+Jdk8 image with minimal spec
 
 ### Base image
 
