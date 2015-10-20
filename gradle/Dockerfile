@@ -8,14 +8,14 @@ USER gradle
 WORKDIR /home/gradle
 
 RUN \
-  curl -L https://services.gradle.org/distributions/gradle-2.7-all.zip -o gradle.zip
+  curl -L https://services.gradle.org/distributions/gradle-2.8-all.zip -o gradle.zip
 
 RUN \
   unzip -q gradle.zip -d tmp && \
   mkdir gradle && \
-  mv tmp/gradle-2.7/bin gradle/ && \
-  mv tmp/gradle-2.7/lib gradle/ && \
-  mv tmp/gradle-2.7/init.d gradle/ && \
+  mv tmp/gradle-2.8/bin gradle/ && \
+  mv tmp/gradle-2.8/lib gradle/ && \
+  mv tmp/gradle-2.8/init.d gradle/ && \
   rm -rf tmp && \
   rm gradle.zip
 
