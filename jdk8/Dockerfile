@@ -14,6 +14,7 @@ RUN \
     curl \
     unzip && \
   apt-get clean && \
+  rm -rf /var/lib/apt/lists/* && \
   rm -rf /var/cache/oracle-jdk8-installer
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
