@@ -1,11 +1,13 @@
 FROM mikeneck/jdk8
 
 RUN \
+  apt-get update && \
   apt-get install -y \
     pkg-config \
     g++ \
     zlib1g-dev && \
   apt-get clean && \
+  rm -rf /var/lib/apt/lists/* && \
   groupadd -r build && \
   useradd -m -g build bazel
 
