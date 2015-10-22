@@ -13,10 +13,8 @@ Gradle with minimal spec.
 
 ### Gradle versions
 
-* Latest
-  * Gradle 2.7
-* mikeneck/gradle:2.7
-  * Gradle 2.7
+* 2.8, latest ([2.8/Dockerfile](https://github.com/mike-neck/docker-images/blob/5273d90efc8568b3806a82f0a57785d4b5116593/gradle/Dockerfile))
+* 2.7 ([2.7/Dockerfile](https://github.com/mike-neck/docker-images/blob/bd3c0498b6f3b5a8e5e15e3897b6832ad8d39dcb/gradle/Dockerfile))
 
 ### User/Group
 

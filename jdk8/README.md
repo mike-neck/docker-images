@@ -7,6 +7,10 @@ Jdk8 image with minimal spec
 
 * [ubuntu:15.10](https://hub.docker.com/_/ubuntu-debootstrap/)
 
+### versions
+
+* jdk1.8.60, latest ([1.8/Dockerfile](https://github.com/mike-neck/docker-images/blob/9d456378b0680b441941c146ae01d23fcc4a5c61/jdk8/Dockerfile))
+
 ### installed packages
 
 * `software-properties-common`
