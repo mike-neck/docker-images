@@ -12,7 +12,7 @@ Mount docker socket and azure directory.
 
 ```
 $ docker run --rm -it --privileged \
-  -v /var/run/docker.scok:/var/run/docker.sock \
+  -v /var/run/docker.sock:/var/run/docker.sock \
   -v ~/.azure:/root/.azure \
   mikeneck/azure-cli-dind
 ```
